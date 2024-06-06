@@ -1,0 +1,8 @@
+<!-- update.html -->
+<h2>Update User</h2>
+<form method="post">
+    Name: <input type="text" name="name" value="{{ user.name }}"><br>
+    Email: <input type="text" name="email" value="{{ user.email }}"><br>
+    <input type="submit" value="Update">
+</form>
+<a href="{{ url_for('index') }}">Back</a>
